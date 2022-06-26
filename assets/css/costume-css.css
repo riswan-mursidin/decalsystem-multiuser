@@ -1,0 +1,8 @@
+.btn-bluedark{
+    background-color: #141e79;
+    color: white;
+}
+.btn-bluedark:hover{
+    background-color: #2735b1;
+    color: white;
+}
