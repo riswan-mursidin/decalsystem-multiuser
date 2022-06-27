@@ -1,4 +1,7 @@
 <?php  
+if($_SESSION['LOGIN_ADMIN_DECAL'] == true){
+    header('Location:dashboard');
+}
 include_once "../libraryClass.php";
 include_once "../action/authAdmin.php";
 ?>

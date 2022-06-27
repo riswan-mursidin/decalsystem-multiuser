@@ -1,7 +1,4 @@
 <?php  
-if($_SESSION['LOGIN_ADMIN_DECAL'] == true){
-    header('Location:dashboard');
-}
 $adminDecalTB = new decalAdmin();
 $error = false;
 if(isset($_POST['login-admin'])){

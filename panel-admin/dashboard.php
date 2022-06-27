@@ -1,3 +1,9 @@
+<?php  
+session_start();
+if($_SESSION['LOGIN_ADMIN_DECAL'] == false){
+    header('Location:index');
+}
+?>
 <!doctype html>
 <html lang="en">
 
